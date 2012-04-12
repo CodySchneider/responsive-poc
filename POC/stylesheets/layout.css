@@ -1,0 +1,436 @@
+body {
+  padding: 0;
+  *zoom: 1;
+}
+body:before, body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+
+/**************************************************************************************
+ *                                                                Base Grid Layout
+ *************************************************************************************/
+body {
+  margin: 0;
+}
+
+.section {
+  position: relative;
+}
+
+#one {
+  *zoom: 1;
+  margin: 0 auto 20px auto;
+}
+#one:before, #one:after {
+  content: "";
+  display: table;
+}
+#one:after {
+  clear: both;
+}
+
+#page {
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+  display: block;
+  width: 960px;
+  margin: 0;
+  *zoom: 1;
+  *zoom: 1;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 0;
+  margin: 0 auto 20px auto;
+  float: none;
+}
+#page:before, #page:after {
+  content: "";
+  display: table;
+}
+#page:after {
+  clear: both;
+}
+#page:before, #page:after {
+  content: "";
+  display: table;
+}
+#page:after {
+  clear: both;
+}
+
+/**************************************************************************************
+ *                                                                Header Section
+ *************************************************************************************/
+#two {
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+  display: block;
+  width: 960px;
+  margin: 0;
+  *zoom: 1;
+  *zoom: 1;
+  margin-bottom: 20px;
+}
+#two:before, #two:after {
+  content: "";
+  display: table;
+}
+#two:after {
+  clear: both;
+}
+#two:before, #two:after {
+  content: "";
+  display: table;
+}
+#two:after {
+  clear: both;
+}
+#two #ContentPane7 {
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+}
+#two #ContentPane8 {
+  float: left;
+  width: 380px;
+  margin: 0 10px;
+}
+#two #ContentPane9 {
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
+#two #ContentPane10 {
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+}
+#two #ContentPane11 {
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+}
+#two #ContentPane12 {
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+}
+
+/**************************************************************************************
+ *                                                                Left Nav Section
+ *************************************************************************************/
+#three {
+  float: left;
+  width: 140px;
+  margin: 0 10px;
+  *zoom: 1;
+}
+#three:before, #three:after {
+  content: "";
+  display: table;
+}
+#three:after {
+  clear: both;
+}
+
+/**************************************************************************************
+ *                                                          Main Content Section
+ *************************************************************************************/
+#four {
+  float: left;
+  width: 780px;
+  margin: 0 10px;
+  *zoom: 1;
+}
+#four:before, #four:after {
+  content: "";
+  display: table;
+}
+#four:after {
+  clear: both;
+}
+#four #ContentPane19 {
+  float: left;
+  width: 460px;
+  margin: 0 10px;
+  margin-left: 0;
+}
+#four #ContentPane20 {
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+  margin-right: 0;
+  float: right;
+}
+#four #ContentPane21 {
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+  margin-right: 0;
+  float: right;
+}
+#four #ContentPane22 {
+  float: left;
+  width: 460px;
+  margin: 0 10px;
+  margin-left: 0;
+}
+#four #ContentPane23 {
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+  margin-right: 0;
+  float: right;
+  clear: right;
+}
+#four #ContentPane24 {
+  float: left;
+  width: 460px;
+  margin: 0 10px;
+  margin-left: 0;
+}
+#four #ContentPane25 {
+  float: left;
+  width: 460px;
+  margin: 0 10px;
+  margin-left: 0;
+}
+#four #ContentPane26 {
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+  margin-right: 0;
+  float: right;
+  clear: right;
+}
+#four #ContentPane27 {
+  clear: both;
+}
+
+/**************************************************************************************
+ *                                                                Bottom Content
+ *************************************************************************************/
+#five {
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+  *zoom: 1;
+  margin-top: 20px;
+}
+#five:before, #five:after {
+  content: "";
+  display: table;
+}
+#five:after {
+  clear: both;
+}
+
+/**************************************************************************************
+ *                                                                Room to Grow
+ *************************************************************************************/
+#six {
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+  *zoom: 1;
+  clear: both;
+}
+#six:before, #six:after {
+  content: "";
+  display: table;
+}
+#six:after {
+  clear: both;
+}
+
+/**************************************************************************************
+ *                                                                         Footer
+ *************************************************************************************/
+#seven {
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+  *zoom: 1;
+  clear: both;
+}
+#seven:before, #seven:after {
+  content: "";
+  display: table;
+}
+#seven:after {
+  clear: both;
+}
+
+/**************************************************************************************
+ *                                                          Bottom Utility Section
+ *************************************************************************************/
+#eight {
+  *zoom: 1;
+}
+#eight:before, #eight:after {
+  content: "";
+  display: table;
+}
+#eight:after {
+  clear: both;
+}
+
+/**************************************************************************************
+ *                                                                Responsi-licious
+ *************************************************************************************/
+@media screen and (max-width: 960px) {
+  #page {
+    width: 100%;
+    margin: 10px auto;
+    float: none;
+    display: block;
+    border: none;
+    box-shadow: none;
+  }
+
+  /**************************************************************************************
+   *                                                    Responsive Header Over-rides
+   *************************************************************************************/
+  #two {
+    width: 100%;
+    margin: 0 0 20px 0;
+    *zoom: 1;
+  }
+  #two:before, #two:after {
+    content: "";
+    display: table;
+  }
+  #two:after {
+    clear: both;
+  }
+  #two #ContentPane7 {
+    float: left;
+    width: 220px;
+    margin: 0 10px;
+  }
+  #two #ContentPane8 {
+    float: left;
+    width: 460px;
+    margin: 0 10px;
+    clear: both;
+    float: none;
+    display: block;
+    margin: 10px auto;
+  }
+  #two #ContentPane9 {
+    float: left;
+    width: 220px;
+    margin: 0 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #two #ContentPane10 {
+    clear: both;
+    width: 100%;
+    margin: 0;
+  }
+  #two #ContentPane11 {
+    width: 100%;
+    margin: 0;
+  }
+  #two #ContentPane11 img {
+    width: 100%;
+  }
+  #two #ContentPane12 {
+    float: left;
+    width: 700px;
+    margin: 0 10px;
+  }
+
+  /**************************************************************************************
+   *                                                 Responsive Left Nav Over-rides
+   *************************************************************************************/
+  #three {
+    width: 20%;
+    margin: 0 2%;
+  }
+
+  /**************************************************************************************
+   *                                              Responsive Main Content Over-rides
+   *************************************************************************************/
+  #four {
+    width: 74%;
+    margin: 0 2% 0 0;
+  }
+  #four #ContentPane19 {
+    width: 100%;
+  }
+  #four #ContentPane20 {
+    width: 100%;
+    margin: 0;
+    float: left;
+  }
+  #four #ContentPane21 {
+    width: 48%;
+    margin: 0;
+    float: right;
+  }
+  #four #ContentPane22 {
+    width: 48%;
+    margin-left: 0;
+  }
+  #four #ContentPane23 {
+    width: 48%;
+    margin-right: 0;
+    float: right;
+    clear: right;
+  }
+  #four #ContentPane24 {
+    width: 48%;
+    margin-left: 0;
+  }
+  #four #ContentPane25 {
+    width: 48%;
+    margin-right: 0;
+    float: right;
+    clear: right;
+  }
+  #four #ContentPane26 {
+    width: 48%;
+  }
+  #four #ContentPane27 {
+    clear: both;
+  }
+
+  /**************************************************************************************
+   *                                              Responsive Main Content Over-rides
+   *************************************************************************************/
+  #five {
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+
+  /**************************************************************************************
+   *                                              Responsive Room to Grow Over-rides
+   *************************************************************************************/
+  #six {
+    width: 100%;
+    margin: 0;
+  }
+
+  /**************************************************************************************
+   *                                              Responsive Bottom Content Over-rides
+   *************************************************************************************/
+  #seven {
+    width: 100%;
+    margin: 0;
+  }
+}

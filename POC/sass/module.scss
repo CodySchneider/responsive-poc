@@ -1,0 +1,486 @@
+.clr {
+  clear:both;
+}
+/**************************************************************************************
+ *                                                              Link Lists Modules
+ *************************************************************************************/
+.list_mod {
+    margin-bottom: 25px;
+}
+.list_mod h3 {
+    color: #88A906;
+    font-size: 120%;
+    margin: 0;
+    padding: 0 0 8px;
+}
+.list_mod h3 a:visited, .list_mod h3 a:link, .list_mod h3 a:hover, .list_mod h3 a:active {
+    color: #88A906;
+}
+.list_mod ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.list_mod ul li {
+    background: url("../../../consumer_assets/site_images/modules/li_bull_blue.gif") no-repeat scroll 0 8px transparent;
+    font-size: 90%;
+    line-height: 19px;
+    padding-left: 8px;
+}
+.list_mod .btn {
+    display: block;
+    margin-top: 10px;
+}
+.activePage {
+    font-weight: bold;
+}
+/**************************************************************************************
+ *                                                           Featured Articles Module
+ *************************************************************************************/
+.featured-articles .pos_1 {
+    border-bottom: 1px solid #DFE5D5;
+    overflow: hidden;
+    padding-bottom: 16px;
+    width: 296px;
+}
+.featured-articles .pos_2, .pos_3 {
+    float: left;
+    padding: 10px 0;
+    width: 148px;
+}
+.featured-articles .subEditorial h3 {
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+}
+.featured-articles .subEditorial p {
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+}
+.featured-articles .pos_1 .icon {
+    float: left;
+    padding-right: 5px;
+    width: 110px;
+}
+.featured-articles .pos_2 .feature, .featured-articles .pos_3 .feature {
+    padding-right: 20px;
+}
+.featured-articles .pos_2 .icon {
+    padding-bottom: 5px;
+}
+.featured-articles .pos_3 .icon {
+    padding-bottom: 4px;
+}
+
+/**************************************************************** Responsive Module **/
+@media screen and (max-width: 960px) {
+  .featured-articles .pos_1, .featured-articles .pos_2, .featured-articles .pos_3 {
+    width:32%;
+    margin:10px 2% 10px 0;
+    float:left;
+    padding:0;
+    border:none;
+  }
+  .featured-articles .pos_3 {
+    margin-right:0;
+   }
+  .featured-articles .feature {
+    clear:both;
+    padding:5px 0 0 0;
+   }
+}
+/**************************************************************************************
+ *                                                                Health News Module
+ *************************************************************************************/
+.hht {
+    margin-bottom: 20px;
+}
+.hht h3 {
+    border-bottom: 1px solid #DFE5D5;
+    color: #88A906;
+    font-size: 180%;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 8px;
+}
+.hht .large_thumbs {
+    float: left;
+    overflow: auto;
+    padding: 10px 15px 0 0;
+    width: 240px;
+}
+.hht .small_thumbs {
+    float: left;
+    overflow: auto;
+    padding: 10px 0 0 0;
+    width: 205px;
+}
+.hht .story {
+    clear: both;
+    overflow: auto;
+    padding-bottom: 15px;
+}
+.hht .story p {
+    margin: 0;
+    padding: 0;
+}
+.hht .story img {
+    float: left;
+    margin-right: 8px;
+}
+.hht .story .sub {
+    font-size: 80%;
+    line-height: 13px;
+    padding-top: 4px;
+}
+.hht .small_thumbs .story {
+    padding-bottom: 16px;
+}
+.hht .large_thumbs .story p {
+    margin-left: 118px;
+}
+.hht .small_thumbs .story p {
+    font-size: 90%;
+    margin-left: 64px;
+}
+.hht ul {
+    clear: both;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.hht ul li {
+    background: url("li_bull_.gif") no-repeat scroll 0 8px transparent;
+    float: left;
+    font-size: 90%;
+    line-height: 19px;
+    padding-left: 8px;
+    width: 48%;
+}
+.hht .clearing {
+    clear: both;
+}
+.hht .rh_rss {
+    float: right;
+    font-size: 45%;
+    height: 17px;
+    margin: 0;
+    padding: 9px 0 0;
+    white-space: nowrap;
+    width: 100px;
+}
+.hht .rh_rss .rh_rss_link {
+    background: url("icon_rss.gif") no-repeat scroll left top transparent;
+    padding: 1px 0 3px 20px;
+}
+/**************************************************************** Responsive Module **/
+@media screen and (max-width: 960px) {
+  .hht ul li {
+      width: auto;
+  }
+}
+
+/**************************************************************************************
+ *                                                                Community Module
+ *************************************************************************************/
+.story_links_par {
+    padding-bottom: 4px;
+}
+.story_links_par h3 {
+    border-bottom: 1px solid #DFE5D5;
+    color: #88A906;
+    font-size: 180%;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 6px;
+}
+.story_links_par .main_story {
+    clear: both;
+    margin-top: 5px;
+    overflow: auto;
+}
+.story_links_par ul {
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 5px 10px 0 0;
+    width: 220px;
+}
+.story_links_par ul li {
+    background: url("../../../consumer_assets/site_images/modules/li_bull_blue.gif") no-repeat scroll 0 8px transparent;
+    font-size: 90%;
+    line-height: 19px;
+    padding-left: 8px;
+}
+.story_links_par p {
+    color: #333333;
+    font-size: 90%;
+    font-weight: bold;
+    margin: 0;
+    padding: 6px 5px 0 0;
+}
+.story_links_par .no_link_fmt {
+    background: none repeat scroll 0 0 transparent;
+    padding-left: 0;
+}
+.story_links_par p a {
+    font-weight: normal;
+}
+.story_links_par .attrib {
+    font-style: normal;
+}
+.story_links_par .main_story h4 {
+    font-size: 100%;
+    font-weight: normal;
+    margin: 0;
+    padding: 5px 0 10px;
+}
+.story_links_par .main_story img {
+    border: 0 none;
+    float: left;
+    margin: 0 12px 8px 0;
+}
+.story_links_par li {
+    font-weight: bold;
+}
+.story_links_par li a {
+    font-weight: normal;
+}
+.story_links_par .main_story p {
+    color: #333333;
+    font-size: 90%;
+    font-weight: normal;
+    line-height: 110%;
+    margin: 0 15px 7px 122px;
+    padding: 0;
+}
+
+/**************************************************************************************
+ *                                                                Top Links Module
+ *************************************************************************************/
+.top_search_rdr {
+    margin: 10px 0;
+}
+.top_search_rdr h3 {
+    border-bottom: 1px solid #DFE5D5;
+    color: #88A906;
+    font-size: 140%;
+    font-weight: normal;
+    margin: 0 0 6px;
+    padding: 0 0 6px;
+}
+.top_search_rdr .col_1_fmt {
+    float: left;
+    margin: 0 4% 10px 0;
+    width: 48%;
+}
+.top_search_rdr .col_2_fmt {
+    float: left;
+    margin: 0 0 10px 0;
+    width: 48%
+}
+.top_search_rdr .top_search_number {
+    background: url("../../../consumer_assets/site_images/modules/top20_numbox.gif") no-repeat scroll 0 50% transparent;
+    clear: both;
+    color: #88A906;
+    float: left;
+    font-weight: bold;
+    height: 17px;
+    line-height: 17px;
+    text-align: center;
+    width: 21px;
+}
+.top_search_rdr .top_search_item {
+    float: left;
+    line-height: 17px;
+    margin: 0 0 0 5px;
+    min-height: 22px;
+    width: auto;
+}
+/**************************************************************************************
+ *                                                             Sponsored Links Module
+ *************************************************************************************/
+#sp_ft_rdr {
+}
+#sp_ft_rdr .hs_cols {
+    padding: 0 22px 25px;
+}
+#sp_ft_rdr h3 {
+    color: #88A906;
+    font-size: 180%;
+    font-weight: normal;
+    margin: 0;
+    padding: 0 0 8px 20px;
+}
+#sp_ft_rdr h3 span {
+    font-size: 65%;
+}
+#sp_ft_rdr ul {
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+}
+#sp_ft_rdr li {
+    background: url("../../../consumer_assets/site_images/modules/li_bull_blue.gif") no-repeat scroll 0 8px transparent;
+    font-size: 90%;
+    line-height: 19px;
+    padding-left: 8px;
+}
+#sp_ft_rdr .prem_ed {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border-top: 1px solid #DFE5D5;
+    clear: both;
+    color: #666666;
+    margin: 0 -10px;
+    padding: 0 16px;
+    width: auto;
+}
+#sp_ft_rdr .prem_ed h5 {
+    color: #333333;
+    display: inline;
+    font-size: 90%;
+    margin: 0;
+    padding: 0;
+}
+#sp_ft_rdr .prem_ed a {
+    font-size: 80%;
+    padding: 0 5px;
+}
+#sp_ft_rdr .prem_ed_border {
+    border-bottom: 1px solid #DFE5D5;
+    padding: 13px 0;
+}
+* html #sp_ft_rdr .prem_ed_border {
+    height: 1%;
+}
+#sp_ft_rdr .clearing {
+    clear: both;
+}
+/**************************************************************** Responsive Module **/
+@media screen and (max-width: 960px) {
+  #sp_ft_rdr .prem_ed {
+      width: auto;
+      margin:0;
+  }
+}
+
+/**************************************************************************************
+ *                                                                    Footer Module
+ *************************************************************************************/
+#non_sp_ft_rdr {
+    background: url("../../../consumer_assets/site_images/layout/shared/ft_bg.gif") repeat-x scroll 0 0 transparent;
+    margin: 0 -10px;
+}
+#non_sp_ft_rdr .ft_logos {
+    float: right;
+    padding-top: 20px;
+    width: 299px;
+}
+#non_sp_ft_rdr .ft_logos img {
+    margin: 0 3px;
+}
+#non_sp_ft_rdr .ft_logos a.logo_urac {
+    background: url("../../../consumer_assets/site_images/layout/shared/URAC_trans.gif") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 68px;
+    margin: 0 3px 0 0;
+    width: 71px;
+}
+#non_sp_ft_rdr .ft_logos a.logo_truste {
+    background: url("../../../consumer_assets/site_images/layout/shared/truste_seal_web_trans.gif") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 41px;
+    margin: 10px 0 0 3px;
+    width: 135px;
+}
+#non_sp_ft_rdr .ft_logos a.logo_honcode {
+    background: url("../../../consumer_assets/site_images/layout/shared/honcode09.gif") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 60px;
+    margin: 3px 0 0 3px;
+    width: 43px;
+}
+#non_sp_ft_rdr .ft_logos span {
+    font-size: 1%;
+    left: -2000px;
+    position: absolute;
+    top: 0;
+}
+#non_sp_ft_rdr .ft_text {
+    color: #666666;
+    float: left;
+    padding: 12px 0 0 0;
+}
+#non_sp_ft_rdr .ft_text a {
+    line-height: 18px;
+    padding: 0 5px;
+}
+#non_sp_ft_rdr .about a, #non_sp_ft_rdr .links a {
+    font-size: 80%;
+}
+#non_sp_ft_rdr .copyright {
+    clear: both;
+    padding: 18px 0 8px 5px;
+}
+#non_sp_ft_rdr .copyright p {
+    color: #333333;
+    font-size: 80%;
+    margin: 0;
+    padding: 0;
+}
+.hidesocial .social_links {
+    display: none;
+}
+.social_footer {
+    margin: 10px 0 0 0;
+}
+.social_footer h6 {
+    color: #666666;
+    float: left;
+    font-size: 80%;
+    font-weight: normal;
+    margin: 1px 0 0;
+    width: 60px;
+}
+.social_links ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.social_links ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 20px;
+}
+.social_links ul li a {
+    display: block;
+}
+.social_links ul li.fb a {
+    background: url("../../../consumer_assets/site_images/articles/other/share_bar.png") no-repeat scroll 0 2px transparent;
+    height: 16px;
+    width: 14px;
+}
+.social_links ul li.tw a {
+    background: url("../../../consumer_assets/site_images/articles/other/share_bar.png") no-repeat scroll -15px 0 transparent;
+    height: 17px;
+    width: 14px;
+}
+
+/**************************************************************** Responsive Module **/
+@media screen and (max-width: 960px) {
+  #sp_ft_rdr .prem_ed {
+      width: auto;
+      margin:0;
+  }
+  #non_sp_ft_rdr {
+    margin-left:0;
+    margin-right:0;
+  }
+}

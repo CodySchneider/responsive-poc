@@ -1,0 +1,635 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Responsive Grid POC - Public View</title>
+		
+		<!-- Shared Layout -->
+		<link rel="stylesheet" type="text/css" href="stylesheets/layout.css">
+		<!-- Public View Over-rides -->
+		<link rel="stylesheet" type="text/css" href="stylesheets/public.css">
+		<!-- Pagebuilder Module Styles -->
+		<link rel="stylesheet" type="text/css" href="stylesheets/module.css">
+		
+		<script src="js/jquery-1.4.4.js"></script>
+		<script>
+			// Simulates stripping of empty Content Panes prior to caching
+			$(document).ready(function(){
+				$('.pane:empty').remove();
+			});
+			
+		</script>
+	</head>
+	<body>
+		<div id="one" class="section">
+			<div id="ContentPane1" class="pane">
+				<div class="module">Top Scripts</div>
+			</div>
+			<div id="ContentPane2" class="pane">
+				<div class="module">Skip Navigation</div>
+			</div>
+			<div id="ContentPane3" class="pane">
+				<div class="module">Hook for Window Overlays</div>
+			</div>
+			<div id="ContentPane4" class="pane"></div>
+			<div id="ContentPane5" class="pane"></div>
+			<div id="ContentPane6" class="pane"></div>
+		</div>
+		<div id="page" class="page">
+			<section id="two" class="section">
+				<div id="ContentPane7" class="pane">
+					<div class="module"><img src="images/logo_webmd.gif" alt="" /></div>
+				</div>
+				<div id="ContentPane8" class="pane">
+					<div class="module"><img src="images/search.png" alt="" /></div>
+				</div>
+				<div id="ContentPane9" class="pane">
+					<div class="module"><img src="images/signin.png" alt="" /></div>
+					<div class="module"><img src="images/mast_links.png" alt="" /></div>
+				</div>
+				<div id="ContentPane10" class="pane">
+					<div class="module"><img src="images/navigation.png" alt="" /></div>
+				</div>
+				<div id="ContentPane11" class="pane">
+					<div class="module"><img src="images/mast_ad.png" alt="" /></div>
+				</div>
+				<div id="ContentPane12" class="pane"></div>
+			</section>
+			<section id="three" class="section">
+				<div id="ContentPane13" class="pane"><div class="module"><img src="images/symptom_ad.png" alt="" /></div></div>
+				<div id="ContentPane14" class="pane">
+<!-- **************************************************************************
+ START Link Lists Module 1
+************************************************************************** -->	
+					<div class="module">
+						<div id="hc-hp" class="list_mod">
+						  <h3>Health Conditions</h3>
+						  <ul>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_1');" href="http://www.webmd.com/add-adhd/default.htm">ADHD</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_2');" href="http://www.webmd.com/allergies/default.htm">Allergies</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_3');" href="http://www.webmd.com/anxiety-panic/default.htm">Anxiety Disorders</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_4');" href="http://arthritis.webmd.com/default.htm">Arthritis</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_5');" href="http://www.webmd.com/asthma/default.htm">Asthma</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_6');" href="http://www.webmd.com/back-pain/default.htm">Back Pain</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_7');" href="http://www.webmd.com/bipolar-disorder/default.htm">Bipolar Disorder</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_8');" href="http://www.webmd.com/cancer/default.htm">Cancer</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_9');" href="http://www.webmd.com/cholesterol-management/default.htm">Cholesterol</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_10');" href="http://www.webmd.com/cold-and-flu/default.htm">Cold &amp; Flu</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_11');" href="http://www.webmd.com/lung/copd/default.htm">COPD</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_12');" href="http://www.webmd.com/depression/default.htm">Depression</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_13');" href="http://diabetes.webmd.com/default.htm">Diabetes</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_14');" href="http://www.webmd.com/eye-health/default.htm">Eye Health</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_15');" href="http://www.webmd.com/fibromyalgia/default.htm">Fibromyalgia</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_16');" href="http://www.webmd.com/heart-disease/default.htm">Heart Disease</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_17');" href="http://www.webmd.com/heartburn-gerd/default.htm">Heartburn/GERD</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_18');" href="http://www.webmd.com/hypertension-high-blood-pressure/default.htm">Hypertension</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_19');" href="http://www.webmd.com/urinary-incontinence-oab/default.htm">Incontinence/OAB</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_20');" href="http://www.webmd.com/migraines-headaches/default.htm">Migraines</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_21');" href="http://www.webmd.com/osteoporosis/default.htm">Osteoporosis</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_22');" href="http://www.webmd.com/rheumatoid-arthritis/default.htm">Rheumatoid Arthritis</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_23');" href="http://www.webmd.com/sexual-conditions/default.htm">Sexual Conditions</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_24');" href="http://www.webmd.com/skin-problems-and-treatments/default.htm">Skin Problems</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','hc-hp_25');" href="http://www.webmd.com/sleep-disorders/default.htm">Sleep Disorders</a>
+						    </li>
+						  </ul>
+						  <a onclick="return sl(this,'','hc-hp_all');" href="http://www.webmd.com/a-to-z-guides/health-centers" class="btn">
+						    <img border="0" alt="See All" src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/modules/btn_see_all.gif">
+						  </a>
+						</div>
+					</div>
+<!-- **************************************************************************
+ END Link Lists Module 1
+************************************************************************** -->	
+				</div>
+				<div id="ContentPane15" class="pane">
+<!-- **************************************************************************
+ START Link Lists Module 2
+************************************************************************** -->	
+					<div class="module">
+						<div id="lb-hp" class="list_mod">
+						  <h3>Living Better</h3>
+						  <ul>
+						    <li>
+						      <a onclick="return sl(this,'','lb-hp_1');" href="http://www.webmd.com/parenting/baby/default.htm">Baby &amp; Newborn </a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','lb-hp_2');" href="http://www.webmd.com/oral-health/default.htm">Dental Health</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','lb-hp_3');" href="http://www.webmd.com/balance/default.htm">Emotional Health</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','lb-hp_4');" href="http://www.webmd.com/fitness-exercise/default.htm">Fitness</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','lb-hp_5');" href="http://www.webmd.com/food-recipes/default.htm">Food &amp; Cooking</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','lb-hp_6');" href="http://www.webmd.com/healthy-beauty/toc-old">Healthy Beauty</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','lb-hp_7');" href="http://www.webmd.com/diet/default.htm">Healthy Eating &amp; Diet</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','lb-hp_8');" href="http://www.webmd.com/health-ehome-9/default.htm">Healthy Home</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','lb-hp_9');" href="http://pets.webmd.com/default.htm">Healthy Pets</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','lb-hp_10');" href="http://men.webmd.com/default.htm">Men's Health</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','lb-hp_11');" href="http://www.webmd.com/parenting/old-toc">Parenting</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','lb-hp_12');" href="http://www.webmd.com/baby/default.htm">Pregnancy</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','lb-hp_13');" href="http://www.webmd.com/sex-relationships/default.htm">Sex &amp; Relationships</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','lb-hp_14');" href="http://teens.webmd.com/default.htm">Teen Health</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','lb-hp_15');" href="http://www.webmd.com/phr">WebMD Health Record</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','lb-hp_16');" href="http://women.webmd.com/default.htm">Women's Health</a>
+						    </li>
+						  </ul>
+						  <a onclick="return sl(this,'','lb-hp_all');" href="http://www.webmd.com/a-to-z-guides/healthy-living/default.htm" class="btn">
+						    <img border="0" alt="See All" src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/modules/btn_see_all.gif">
+						    
+						  </a>
+						</div>
+					</div>
+<!-- **************************************************************************
+ END Link Lists Module 2
+************************************************************************** -->	
+				</div>
+				<div id="ContentPane16" class="pane">
+<!-- **************************************************************************
+ START Link Lists Module 3
+************************************************************************** -->	
+					<div class="module">
+						<div id="tools-hp" class="list_mod">
+						  <h3>Assess Yourself</h3>
+						  <ul>
+						    <li>
+						      <a onclick="return sl(this,'','tools-hp_1');" href="http://www.webmd.com/skin-problems-and-treatments/eczema/eczema-health-check/default.htm">Eczema</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','tools-hp_2');" href="http://www.webmd.com/add-adhd/adhd-health-check/default.htm">ADHD</a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','tools-hp_3');" href="http://men.webmd.com/testosterone-health-check/default.htm">Low Testosterone</a>
+						    </li>
+						  </ul>
+						  <a onclick="return sl(this,'','tools-hp_all');" href="http://www.webmd.com/a-to-z-guides/assessments/default.htm" class="btn">
+						    <img border="0" alt="See All" src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/modules/btn_see_all.gif">
+						    
+						  </a>
+						</div>
+					</div>
+<!-- **************************************************************************
+ END Link Lists Module 3
+************************************************************************** -->	
+				</div>
+				<div id="ContentPane17" class="pane"></div>
+				<div id="ContentPane18" class="pane"></div>
+			</section>
+			<section id="four" class="section">
+				<div id="ContentPane19" class="pane"><div class="module"><img src="images/hp_promo.png" alt="" /></div></div>
+				<div id="ContentPane20" class="pane">
+<!-- **************************************************************************
+ START Featured Articles Module - Responsive Module, additional media
+ queries in module.css
+************************************************************************** -->	
+					<div class="module">
+						<div class="featured-articles" id="lnch-promo">
+							<div class="subEditorial pos_1" id="x01" style="visibility: visible;">
+								<a href="http://ls.webmd.com/RealMedia/ads/click_lx.ads/webmd/homepage/L14/1979445721/x01/WebMD/IAMS_Eval_Homepage_RR/IAMS_Eval_Homepage_RR.html/4748376e42453859356c6b4142682f2f"> <img class="icon" alt="feet on a white scale" src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/health_checks/pet_health_evaluator_healthcheck/110x70_pet_health_evaluator_dog_healthcheck.jpg"> </a>
+								<div class="feature">
+									<h3><a href="http://ls.webmd.com/RealMedia/ads/click_lx.ads/webmd/homepage/L14/1979445721/x01/WebMD/IAMS_Eval_Homepage_RR/IAMS_Eval_Homepage_RR.html/4748376e42453859356c6b4142682f2f">Assess Your Pet</a></h3>
+									<p>From heartworms to behavior problems, check your pet's health here.</p>
+								</div>
+							</div>
+							<div class="subEditorial pos_2" id="x02" style="visibility: visible;">
+								<a href="http://ls.webmd.com/RealMedia/ads/click_lx.ads/webmd/homepage/L14/369687607/x02/WebMD/Day2Night_Lupus_Homepage_RR/Easy_to_do_stress_releasing_exercises.html/4748376e42453859356c6b4142682f2f"> <img class="icon" alt="finger pointing to mole" src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/thumbnails_daily_images/2010/HOMEPAGE_REDESIGN_THUMBS/110x70/110x70_senior_woman_doing_yoga.jpg"> </a>
+								<div class="feature">
+									<h3><a href="http://ls.webmd.com/RealMedia/ads/click_lx.ads/webmd/homepage/L14/369687607/x02/WebMD/Day2Night_Lupus_Homepage_RR/Easy_to_do_stress_releasing_exercises.html/4748376e42453859356c6b4142682f2f">Stress Relief</a></h3>
+									<p>Easy-to-do stress releasing exercises</p>
+								</div>
+							</div>
+							<div class="subEditorial pos_3" id="x03" style="visibility: visible;">
+								<a href="http://ls.webmd.com/RealMedia/ads/click_lx.ads/webmd/homepage/L14/575897243/x03/WebMD/Mistakes_Parents_Make_With_Teens_and_Tweens_Homepage_RR/Mistakes_Parents_Make_With_Teens_and_Tweens.html/4748376e42453859356c6b4142682f2f"> <img class="icon" alt="concerned younger african american woman" src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/thumbnails_daily_images/2009/HOMEPAGE_REDESIGN_THUMBS/110x70/110x70_go_ahead-and_curse_it_may_ease_your_pain_3.jpg"> </a>
+								<div class="feature">
+									<h3><a href="http://ls.webmd.com/RealMedia/ads/click_lx.ads/webmd/homepage/L14/575897243/x03/WebMD/Mistakes_Parents_Make_With_Teens_and_Tweens_Homepage_RR/Mistakes_Parents_Make_With_Teens_and_Tweens.html/4748376e42453859356c6b4142682f2f">Bad Parenting</a></h3>
+									<p>5 mistakes parents make with teens and tweens.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+<!-- **************************************************************************
+ END Featured Articles Module
+************************************************************************** -->	
+				</div>
+				<div id="ContentPane21" class="pane"><div class="module"><img src="images/rr_ad.png" alt="" /></div></div>
+				<div id="ContentPane22" class="pane">
+<!-- **************************************************************************
+ START Health News & Features Module - Responsive Module, additional media
+ queries in module.css
+************************************************************************** -->	
+					<div class="module">
+						<div id="head-hp" class="hht">
+						    <h3>
+						      <span class="rh_rss">
+						        <a onclick="return sl(this,'','head-hp_rss');" href="http://rssfeeds.webmd.com/rss/rss.aspx?RSSSource=RSS_PUBLIC" id="rssFeedLink" class="rh_rss_link">RSS Feed</a> | <a onclick="return sl(this,'','head-hp_rsshlp');" href="http://www.webmd.com/rss/default.htm">Help</a></span>Today's Health News &amp; Features</h3>
+						    <div class="large_thumbs">
+						      <div class="story">
+						        <a onclick="return sl(this,'','head-hp_img_1');" href="http://www.webmd.com/fitness-exercise/news/20120406/remember-this-exercise-boosts-your-brainpower">
+						          <img border="0" alt="mature couple cycling together" src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/news/2012/04_2012/exercise_and_memory/110x70_exercise_and_memory.jpg">
+						        </a>
+						        <p>
+						          <a onclick="return sl(this,'','head-hp_link_1_1');" href="http://www.webmd.com/fitness-exercise/news/20120406/remember-this-exercise-boosts-your-brainpower">Remember This: Exercise Helps Memory</a>
+						        </p>
+						        <p class="sub">
+						          <a onclick="return sl(this,'','head-hp_link_1_2');" href="http://www.webmd.com/fitness-exercise/ss/slideshow-30-minute-workout-routine" class="type_ss">30-Minute Workout<i> </i></a>
+						        </p>
+						      </div>
+						      <div class="story">
+						        <a onclick="return sl(this,'','head-hp_img_2');" href="http://www.webmd.com/brain/autism/news/20120409/moms-health-while-pregnant-linked-autism-risk">
+						          <img border="0" alt="pregnant woman weighing herself" src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/news/2012/04_2012/obesity_diabetes_and_autism/110x70_obesity_diabetes_and_autism.jpg">
+						        </a>
+						        <p>
+						          <a onclick="return sl(this,'','head-hp_link_2_1');" href="http://www.webmd.com/brain/autism/news/20120409/moms-health-while-pregnant-linked-autism-risk">Autism Clue: Mom's Health During Pregnancy</a>
+						        </p>
+						        <p class="sub">
+						          <a onclick="return sl(this,'','head-hp_link_2_2');" href="http://www.webmd.com/brain/autism/ss/slideshow-autism-overview" class="type_ss">Autism Symptoms<i> </i></a>
+						        </p>
+						      </div>
+						    </div>
+						    <div class="small_thumbs">
+						      <div class="story">
+						        <a onclick="return sl(this,'','head-hp_img_3');" href="http://www.webmd.com/digestive-disorders/video/gallbladder-surgery">
+						          <img border="0" alt="gallbladder surgery" src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/video/gallbladder_surgery_video/56x40_gallbladder_surgery_video.jpg">
+						        </a>
+						        <p>
+						          <a onclick="return sl(this,'','head-hp_img_3');" href="http://www.webmd.com/digestive-disorders/video/gallbladder-surgery" class="type_vid">Watch a Gallbladder Surgery<i> </i></a>
+						        </p>
+						      </div>
+						      <div class="story">
+						        <a onclick="return sl(this,'','head-hp_img_4');" href="http://diabetes.webmd.com/h2t-managing-diabetes-11/default.htm?article=091e9c5e8085db8a&amp;promo=1">
+						          <img border="0" alt="diabetes essentials" src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/features/_2012/01_2012/diabetes_essentials_features/56x40_diabetes_essentials_features.jpg">
+						        </a>
+						        <p>
+						          <a onclick="return sl(this,'','head-hp_img_4');" href="http://diabetes.webmd.com/h2t-managing-diabetes-11/default.htm?article=091e9c5e8085db8a&amp;promo=1">Diabetes: Essential Supplies to Have on Hand</a>
+						        </p>
+						      </div>
+						      <div class="story">
+						        <a onclick="return sl(this,'','head-hp_img_5');" href="http://www.webmd.com/pain-management/video/knee-hip-exercise">
+						          <img border="0" alt="hip exercise" src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/video/knee_hip_exercise_video/56x40_knee_hip_exercise_video.jpg">
+						        </a>
+						        <p>
+						          <a onclick="return sl(this,'','head-hp_img_5');" href="http://www.webmd.com/pain-management/video/knee-hip-exercise" class="type_vid">Exercises for Stronger Hips and Knees<i> </i></a>
+						        </p>
+						      </div>
+						    </div>
+						    <div class="clearing"> </div>
+						    <div class="list">
+						      <ul>
+						        <li>
+						          <a onclick="return sl(this,'','head-hp_3_1');" href="http://www.webmd.com/food-recipes/ss/slideshow-exotic-fruits" class="type_ss">8 Fruits to Start Eating Now<i> </i></a>
+						        </li>
+						        <li>
+						          <a onclick="return sl(this,'','head-hp_3_2');" href="http://blogs.webmd.com/food-and-nutrition/2012/04/5-restaurant-rules-to-dine-by.html" class="type_com">5 Restaurant Rules to Dine By <i> </i></a>
+						        </li>
+						        <li>
+						          <a onclick="return sl(this,'','head-hp_3_3');" href="http://www.webmd.com/oral-health/rm-quiz-bad-breath">Whew! Why Such Bad Breath?</a>
+						        </li>
+						        <li>
+						          <a onclick="return sl(this,'','head-hp_3_4');" href="http://blogs.webmd.com/food-and-nutrition/2012/03/is-black-the-new-black-in-foods.html" class="type_com">Black: The New 'It' Food Color<i> </i></a>
+						        </li>
+						        <li>
+						          <a onclick="return sl(this,'','head-hp_3_5');" href="http://www.webmd.com/brain/rm-quiz-amazing-brain">Do You Know What Your Brain Does?</a>
+						        </li>
+						        <li>
+						          <a onclick="return sl(this,'','head-hp_3_6');" href="http://arthritis.webmd.com/living-with-chronic-gout-11/slideshow-gout-diet" class="type_ss">Foods That Make Gout Worse<i> </i></a>
+						        </li>
+						        <li class="see_all">
+						          <a onclick="return sl(this,'','head-hp_3_7');" href="http://www.webmd.com/news/default.htm">See All WebMD News</a>
+						        </li>
+						      </ul>
+						    </div>
+						    <div class="clearing"> </div>
+						</div>
+					</div>
+<!-- **************************************************************************
+ END Health News & Features Module
+************************************************************************** -->						
+				</div>
+				<div id="ContentPane23" class="pane">
+					<div class="module"><img src="images/rr_ad2.png" alt="" /></div>
+					<div class="module"><img src="images/newsletter.png" alt="" /></div>
+				</div>
+				<div id="ContentPane24" class="pane">
+
+<!-- **************************************************************************
+ START Community Module - Responsive Module, additional media
+ queries in module.css
+************************************************************************** -->	
+					<div class="module">
+						<div id="comm-hp" class="story_links_par">
+						  <h3>Community</h3>
+						  <div class="main_story">
+						    <h4> <a onclick="return sl(this,'','comm-hp_head_1');" href="http://forums.webmd.com/3/debates-community/forum/64">When Is a Child Too Old to Breastfeed?</a></h4>
+						    <a onclick="return sl(this,'','comm-hp_img_1');" href="http://forums.webmd.com/3/debates-community/forum/64">
+						      <img alt="mother and infant" src="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/thumbnails_daily_images/2009/HOMEPAGE_REDESIGN_THUMBS/110x70/110x70_breastfeeding_may_cut_breast_cancer_risk.jpg">
+						    </a>
+						    <p>Breastfeeding has its health advantages, but at what age should you draw the line? Is there an age when weaning should be complete?</p>
+						    <p class="attrib"> <a onclick="return sl(this,'','comm-hp_attrib_1');" href="http://forums.webmd.com/3/debates-community/forum/64">Tell Us What You Think</a></p>
+						  </div>
+						  <ul>
+						    <li class="no_link_fmt">Healthy Discussions</li>
+						    <li>
+						      <a onclick="return sl(this,'','comm-hp_1-1');" href="http://forums.webmd.com/3/debates-community/forum/65" class="type_com">Repeal of Affordable Care Act<i> </i></a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','comm-hp_1-2');" href="http://forums.webmd.com/3/pet-health-exchange/forum/4789" class="type_com">Pets Have Seasonal Allergies, Too!<i> </i></a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','comm-hp_1-3');" href="http://forums.webmd.com/3/autism-support-exchange/forum/477" class="type_com">Do You Know Someone With Autism?<i> </i></a>
+						    </li>
+						  </ul>
+						  <ul>
+						    <li class="no_link_fmt">Join the Discussion</li>
+						    <li>
+						      <a onclick="return sl(this,'','comm-hp_2-1');" href="http://exchanges.webmd.com/default.htm" class="type_com">All Communities<i> </i></a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','comm-hp_2-2');" href="http://exchanges.webmd.com/allergies-exchange" class="type_com">Allergies Community<i> </i></a>
+						    </li>
+						    <li>
+						      <a onclick="return sl(this,'','comm-hp_2-3');" href="http://exchanges.webmd.com/webmd-exchanges/blogs" class="type_com">All Expert Blogs<i> </i></a>
+						    </li>
+						  </ul>
+						</div>
+					</div>
+<!-- **************************************************************************
+ END Community Module
+************************************************************************** -->	
+
+				</div>
+				<div id="ContentPane25" class="pane">
+<!-- **************************************************************************
+ START Top Trends Module
+************************************************************************** -->	
+					<div class="module">
+						<div id="top-twlv" class="top_search_rdr">
+						  <div class="top_search_heading_fmt">
+						    <h3>Top Trends</h3>
+						  </div>
+						  <div class="top_search_body_fmt">
+						    <div class="col_1_fmt">
+						      <div class="top_search_number">1</div>
+						      <div class="top_search_item">
+						        <a onclick="return sl(this,'','top-twlv_1');" href="http://www.webmd.com/skin-problems-and-treatments/guide/sunburn">Sunburn</a>
+						      </div>
+						      <div class="top_search_number">2</div>
+						      <div class="top_search_item">
+						        <a onclick="return sl(this,'','top-twlv_2');" href="http://www.webmd.com/diet/guide/what-is-obesity">Obesity</a>
+						      </div>
+						      <div class="top_search_number">3</div>
+						      <div class="top_search_item">
+						        <a onclick="return sl(this,'','top-twlv_3');" href="http://firstaid.webmd.com/understanding-dizziness-basics">Dizziness</a>
+						      </div>
+						      <div class="top_search_number">4</div>
+						      <div class="top_search_item">
+						        <a onclick="return sl(this,'','top-twlv_4');" href="http://www.webmd.com/melanoma-skin-cancer/ss/slideshow-skin-lesions-and-cancer">Melanoma</a>
+						      </div>
+						      <div class="top_search_number">5</div>
+						      <div class="top_search_item">
+						        <a onclick="return sl(this,'','top-twlv_5');" href="http://children.webmd.com/whooping-cough-directory">Whooping Cough</a>
+						      </div>
+						      <div class="top_search_number">6</div>
+						      <div class="top_search_item">
+						        <a onclick="return sl(this,'','top-twlv_6');" href="http://www.webmd.com/heart-disease/understanding-aneurysm-basics">Aneurysm</a>
+						      </div>
+						    </div>
+						    <div class="col_2_fmt">
+						      <div class="top_search_number">7</div>
+						      <div class="top_search_item">
+						        <a onclick="return sl(this,'','top-twlv_7');" href="http://www.webmd.com/fitness-exercise/meniscustear">Meniscus Tear</a>
+						      </div>
+						      <div class="top_search_number">8</div>
+						      <div class="top_search_item">
+						        <a onclick="return sl(this,'','top-twlv_8');" href="http://www.webmd.com/skin-problems-and-treatments/tc/tick-bites-topic-overview">Ticks</a>
+						      </div>
+						      <div class="top_search_number">9</div>
+						      <div class="top_search_item">
+						        <a onclick="return sl(this,'','top-twlv_9');" href="http://www.webmd.com/healthy-beauty/hyperhidrosis2">Sweating</a>
+						      </div>
+						      <div class="top_search_number">10</div>
+						      <div class="top_search_item">
+						        <a onclick="return sl(this,'','top-twlv_10');" href="http://www.webmd.com/lung/tc/severe-acute-respiratory-syndrome-sars-overview">SARS</a>
+						      </div>
+						      <div class="top_search_number">11</div>
+						      <div class="top_search_item">
+						        <a onclick="return sl(this,'','top-twlv_11');" href="http://www.webmd.com/brain/understanding-als-basics">ALS</a>
+						      </div>
+						      <div class="top_search_number">12</div>
+						      <div class="top_search_item">
+						        <a onclick="return sl(this,'','top-twlv_12');" href="http://www.webmd.com/brain/autism/autism-spectrum-disorders">Autism Spectrum</a>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+<!-- **************************************************************************
+ END Top Trends Module
+************************************************************************** -->	
+				</div>
+				<div id="ContentPane26" class="pane"><div class="module"><img src="images/fda.png" alt="" /></div></div>
+				<div id="ContentPane27" class="pane"></div>
+				<div id="ContentPane28" class="pane"></div>
+				<div id="ContentPane29" class="pane"></div>
+				<div id="ContentPane30" class="pane"></div>
+			</section>
+			<section id="five" class="section">
+				<div id="ContentPane31" class="pane">
+<!-- **************************************************************************
+ START Sponsored Links Module - Responsive Module, additional media
+ queries in module.css
+************************************************************************** -->	
+					<div class="module">
+<div id="sp_ft_rdr">
+  <h3>Health Solutions <span>From Our Sponsors</span></h3>
+  <div class="hs_cols">
+    <ul>
+      <li>
+        <a onclick="return sl(this,'','hicb f-hs_1');" href="http://www.webmd.com/chronic-low-back-pain/">Aching Back Center</a>
+      </li>
+      <li>
+        <a onclick="return sl(this,'','hicb f-hs_2');" href="http://www.webmd.com/treating-alzheimers-disease/default.htm">Alzheimer’s Progression</a>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <a onclick="return sl(this,'','hicb f-hs_3');" href="http://www.webmd.com/mdd-treatment-steps">Causes of Depression</a>
+      </li>
+      <li>
+        <a onclick="return sl(this,'','hicb f-hs_4');" href="http://www.webmd.com/chronic-osteoarthritis-pain">Joint Pain Help Center</a>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <a onclick="return sl(this,'','hicb f-hs_5');" href="http://www.webmd.com/control-diabetes/default.htm">Long-Acting Insulin?</a>
+      </li>
+      <li>
+        <a onclick="return sl(this,'','hicb f-hs_6');" href="http://www.webmd.com/chronic-osteoarthritis-pain">Musculoskeletal Pain</a>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <a onclick="return sl(this,'','hicb f-hs_7');" href="http://www.webmd.com/understanding-risk-copd-flare-ups/default.htm">Once-Daily COPD Treatment</a>
+      </li>
+      <li>
+        <a onclick="return sl(this,'','hicb f-hs_8');" href="http://www.webmd.com/mdd-treatment-steps">Treating Depression</a>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <a onclick="return sl(this,'','hicb f-hs_9');" href="http://www.webmd.com/living-with-fibro/default.htm">Understand Fibromyalgia</a>
+      </li>
+      <li>
+        <a onclick="return sl(this,'','hicb f-hs_10');" href="http://www.webmd.com/know-your-heart-health-risk/women">Women &amp; Heart Disease</a>
+      </li>
+    </ul>
+    <div class="clearing"> </div>
+  </div>
+  <div class="prem_ed">
+    <div class="prem_ed_border">
+      <h5>In-depth coverage:</h5>
+      <a onclick="return sl(this,'','f-idc_1');" href="http://www.webmd.com/skin-problems-and-treatments/psoriasis/expck/default.htm">Is Your Psoriasis Treatment on Target?</a>|<a onclick="return sl(this,'','f-idc_2');" href="http://www.webmd.com/oral-health/healthy-teeth-1/default.htm">Your Guide to a Healthy Mouth</a>|<a onclick="return sl(this,'','f-idc_3');" href="http://www.webmd.com/rheumatoid-arthritis/rheumatoid-arthritis-health-check/default.htm">Rheumatoid Arthritis Health Check</a>|<a onclick="return sl(this,'','f-idc_4');" href="http://teens.webmd.com/girls-puberty-10/default.htm"> Teen Girls and Puberty</a>|<a onclick="return sl(this,'','f-idc_5');" href="http://diabetes.webmd.com/h2t-managing-diabetes-11/default.htm">Diabetes and Your Body</a></div>
+  </div>
+</div>						
+					</div>
+<!-- **************************************************************************
+ END Sponsored Links Module
+************************************************************************** -->	
+				</div>
+				<div id="ContentPane32" class="pane"></div>
+				<div id="ContentPane33" class="pane"></div>
+				<div id="ContentPane34" class="pane"></div>
+				<div id="ContentPane35" class="pane"></div>
+				<div id="ContentPane36" class="pane"></div>
+			</section>
+			<section id="six" class="section">
+				<div id="ContentPane37" class="pane"></div>
+				<div id="ContentPane38" class="pane"></div>
+				<div id="ContentPane39" class="pane"></div>
+				<div id="ContentPane40" class="pane"></div>
+				<div id="ContentPane41" class="pane"></div>
+				<div id="ContentPane42" class="pane"></div>
+			</section>
+			<section id="seven" class="section">
+				<div id="ContentPane43" class="pane">
+<!-- **************************************************************************
+ START Footer Module - Responsive Module, additional media
+ queries in module.css
+************************************************************************** -->	
+					<div class="module">
+						<div id="non_sp_ft_rdr">
+						<div class="social_links social_footer">
+						<h6>Find us on:</h6>
+						<ul>
+						<li class="fb"><a onclick="return sl(this,'nw','soc_fb-f');" href="http://www.webmd.com/click?url=http%3A//www.facebook.com/%23!/WebMD%3Fref=ts"></a></li>
+						<li class="tw"><a onclick="return sl(this,'nw','soc_tw-f');" href="http://www.webmd.com/click?url=http%3A//twitter.com/WebMD"></a></li>
+						</ul>
+						<div class="clr">&nbsp;</div>
+						</div>
+						<div class="ft_logos"> <a class="logo_urac" href="http://www.webmd.com/click?url=https%3A//www.urac.org/directory/CompanyView.aspx%3Fcid=C8700000F48%26aid=1951%26Type=Accreditnet" onclick="return sl(this,'nw','f-about_22');"><span>URAC: Accredited Health Web Site</span></a> <div style="display:inline; float:left;" id="f733a173-6d11-4e17-ba9f-f1454ef8b32f"> <script src="//privacy-policy.truste.com/privacy-seal/WebMD,-LLC/asc?rid=f733a173-6d11-4e17-ba9f-f1454ef8b32f" type="text/javascript"></script><a target="_blank" title="TRUSTe online privacy certification" href="//privacy.truste.com/privacy-seal/WebMD,-LLC/validation?rid=7b3bf16d-37b4-42e0-aec7-836ef1d3680d" onclick="return sl(this,'nw','f-about_23');"><img alt="TRUSTe online privacy certification" src="//privacy-policy.truste.com/privacy-seal/WebMD,-LLC/seal?rid=80c33c7c-da0b-4788-8236-61a318f00f4c" style="border: none"></a></div> <a title="This site complies with the HONcode standard for trustworthy health information." class="logo_honcode" href="http://www.webmd.com/click?url=http://www.hon.ch/HONcode/Conduct.html%3FHONConduct298987" onclick="return sl(this,'nw','f-about_24');"><span>HonCode: Health on the Net Foundation</span></a> </div>
+						<div class="ft_text">
+						<div class="about"> <a onclick="return sl(this,'','f-about_01');" href="http://www.webmd.com/www/about-webmd-policies/default.htm?ss=ftr" rel="nofollow">About WebMD</a>|<a onclick="return sl(this,'','f-about_02');" href="http://www.webmd.com/www/about-webmd-policies/about-terms-and-conditions-of-use?ss=ftr" rel="nofollow">Terms of Use</a>|<a onclick="return sl(this,'','f-about_03');" href="http://www.webmd.com/www/about-webmd-policies/about-privacy-policy?ss=ftr" rel="nofollow">Privacy Policy</a>|<a onclick="return sl(this,'','f-about_04');" href="http://www.webmd.com/www/about-webmd-policies/about-our-sponsors?ss=ftr" rel="nofollow">Sponsor Policy</a>|<a onclick="return sl(this,'','f-about_05');" href="http://www.webmd.com/www/site-map?ss=ftr">Site Map</a>|<a onclick="return sl(this,'','f-about_07')" href="https://careers-webmd.icims.com/" rel="nofollow">Careers</a>| <a onclick="return sl(this,'nw','f-about_08');" href="https://customercare.webmd.com/ics/support/default.asp?deptID=18003&amp;task=ticket" rel="nofollow">Contact Us</a> </div>
+						<div class="links"> <a onclick="return sl(this,'f-about_09','ftr')" href="http://www.webmd.com/www/about-webmd-policies/media/default.htm" rel="nofollow">Advertise With Us</a>|<a onclick="return sl(this,'f-about_10','ftr')" href="http://www.wbmd.com/" rel="nofollow">WebMD Corporate</a>|<a onclick="return sl(this,'f-about_11','ftr')" href="http://reference.medscape.com">Medscape Reference</a>|<a onclick="return sl(this,'f-about_12','ftr')" href="http://www.emedicinehealth.com/script/main/hp.asp ">eMedicineHealth</a>|<a onclick="return sl(this,'f-about_13','ftr')" href="http://www.rxlist.com/">RxList</a>|<a onclick="return sl(this,'f-about_14','ftr')" href="http://www.medscape.com/">Medscape</a>|<a onclick="return sl(this,'f-about_15','ftr')" href="http://www.medicinenet.com/">MedicineNet</a>|<a onclick="return sl(this,'f-about_26','ftr')" href="http://www.webmd.boots.com/">BootsWebMD</a> </div>
+						<div class="links"> <a onclick="return sl(this,'','f-about_17');" href="http://www.webmd.com/firstaid">First Aid</a>|<a onclick="return sl(this,'','f-about_18');" href="http://www.webmd.com/www/magazine/default.htm?ss=ftr">WebMD the Magazine</a>|<a onclick="return sl(this,'','f-about_19')" href="http://www.webmd.com/www/phr">WebMD Health Record</a>|<a onclick="return sl(this,'','f-about_20')" href="http://www.webmd.com/www/mobile">WebMD Mobile</a>|<a onclick="return sl(this,'','f-about_21')" href="https://member.webmd.com/newsletters/newsletters.aspx">Newsletters</a> </div>
+						<div class="copyright">
+						<p>&copy;2005-2012 WebMD, LLC. All rights reserved.</p>
+						<p>WebMD does not provide medical advice, diagnosis or treatment. <a onclick="return sl(this,'','f-about_25');" href="http://www.webmd.com/www/policies/additional-info?ss=ftr" rel="nofollow">See additional information.</a></p>
+						</div>
+						</div>
+						<div class="clr"></div>
+						</div>				
+					</div>
+<!-- **************************************************************************
+ END Footer Module
+************************************************************************** -->	
+				</div>
+				<div id="ContentPane44" class="pane"></div>
+				<div id="ContentPane45" class="pane"></div>
+				<div id="ContentPane46" class="pane"></div>
+				<div id="ContentPane47" class="pane"></div>
+				<div id="ContentPane48" class="pane"></div>
+			</section>
+		</div>
+		<div id="eight" class="section">
+			<div id="ContentPane49" class="pane"></div>
+			<div id="ContentPane50" class="pane"></div>
+			<div id="ContentPane51" class="pane"></div>
+			<div id="ContentPane52" class="pane"></div>
+			<div id="ContentPane53" class="pane"></div>
+			<div id="ContentPane54" class="pane"><div class="module">Bottom Scripts</div></div>
+		</div>
+	</body>
+</html>

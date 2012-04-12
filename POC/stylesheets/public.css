@@ -1,0 +1,42 @@
+/**************************************************************************************
+ * Styles Specific to Public View
+ * 
+ * These styles are currently mostly used for demo specific items.
+ *************************************************************************************/
+body {
+  font-family: arial,helvetica,sans-serif;
+  font-size: 10pt;
+}
+
+a {
+  color: #3789B9;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0 .8em;
+}
+
+.pane {
+  border-top: 1px dotted blue;
+}
+
+.module > img {
+  width: 100%;
+}
+
+#ContentPane7 .module {
+  margin-top: 15px;
+}
+
+#ContentPane11 {
+  text-align: center;
+}
+#ContentPane11 img {
+  width: auto;
+}

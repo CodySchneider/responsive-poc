@@ -1,0 +1,316 @@
+@import "grid";
+@import "compass/css3";
+
+/**************************************************************************************
+ *                                                                Base Grid Layout
+ *************************************************************************************/
+$RR_Cols: 4;
+$CW_Cols: 6;
+
+body {margin:0;}
+.section {
+  position:relative;
+}
+
+#one {
+  @include clearfix;
+  margin:0 auto 20px auto;
+}
+
+#page {
+  
+  @include column(12);
+  @include row(12);
+  @include clearfix;
+  @include single-box-shadow;
+  @include border-radius(5px);
+  padding:10px 0;
+  margin:0 auto 20px auto;
+  float:none;
+}
+/**************************************************************************************
+ *                                                                Header Section
+ *************************************************************************************/
+  #two {
+    @include column(12,12);
+    @include row(12);
+    @include clearfix;
+    margin-bottom:20px;
+    #ContentPane7 {
+      @include column(3);
+    }
+    #ContentPane8 {
+      @include column(5);
+    }
+    #ContentPane9 {
+      @include column(4);
+    }
+    #ContentPane10 {
+      @include column(12);
+    }
+    #ContentPane11 {
+      @include column(12);
+    }
+    #ContentPane12 {
+      @include column(12);
+    }
+  }
+/**************************************************************************************
+ *                                                                Left Nav Section
+ *************************************************************************************/ 
+  #three {
+    @include column(2);
+    @include clearfix;
+    #ContentPane13 {
+    }
+    #ContentPane14 {
+    }
+    #ContentPane15 {
+    }
+    #ContentPane16 {
+    }
+    #ContentPane17 {
+    }
+    #ContentPane18 {
+    }
+  }
+
+/**************************************************************************************
+ *                                                          Main Content Section
+ *************************************************************************************/
+  #four {
+    @include column(10);
+    @include clearfix;
+    #ContentPane19 {
+      @include column($CW_Cols,12);
+      margin-left:0;
+    }
+    #ContentPane20 {
+      @include column($RR_Cols,12);
+      margin-right:0;
+      float:right;
+    }
+    #ContentPane21 {
+      @include column($RR_Cols,12);
+      margin-right:0;
+      float:right;
+    }
+    #ContentPane22 {
+      @include column($CW_Cols,12);
+      margin-left:0;
+    }
+    #ContentPane23 {
+      @include column($RR_Cols,12);
+      margin-right:0;
+      float:right;
+      clear:right;
+    }
+    #ContentPane24 {
+      @include column($CW_Cols,12);
+      margin-left:0;
+    }
+    #ContentPane25 {
+      @include column($CW_Cols,12);
+      margin-left:0;
+    }
+    #ContentPane26 {
+      @include column($RR_Cols,12);
+      margin-right:0;
+      float:right;
+      clear:right;
+    }
+    #ContentPane27 {
+      clear:both;
+    }
+    #ContentPane28 {
+    }
+    #ContentPane29 {
+    }
+    #ContentPane30 {
+    }
+ }
+
+/**************************************************************************************
+ *                                                                Bottom Content
+ *************************************************************************************/
+  #five {
+    @include column(12);
+    @include clearfix;
+    margin-top:20px;
+  }
+
+/**************************************************************************************
+ *                                                                Room to Grow
+ *************************************************************************************/
+  #six {
+    @include column(12);
+    @include clearfix;
+    clear:both;
+  }
+
+/**************************************************************************************
+ *                                                                         Footer
+ *************************************************************************************/
+  #seven {
+    @include column(12);
+    @include clearfix;
+    clear:both;
+  }
+
+
+/**************************************************************************************
+ *                                                          Bottom Utility Section
+ *************************************************************************************/
+#eight {
+  @include clearfix;
+}
+
+/**************************************************************************************
+ *                                                                Responsi-licious
+ *************************************************************************************/
+@media screen and (max-width: 960px) {
+  #page {
+    width:100%;
+    margin:10px auto;
+    float:none;
+    display:block;
+    border:none;
+    box-shadow:none;
+  }
+/**************************************************************************************
+ *                                                    Responsive Header Over-rides
+ *************************************************************************************/
+    #two {
+      width:100%;
+      margin: 0 0 20px 0;
+      @include clearfix;
+      #ContentPane7 {
+        @include column(3);
+      }
+      #ContentPane8 {
+        @include column(6);
+        clear:both;
+        float:none;
+        display:block;
+        margin:10px auto;
+      }
+      #ContentPane9 {
+        @include column(3);
+        position:absolute;
+        right:0;
+        top:0;
+      }
+      #ContentPane10 {
+        clear:both;
+        width:100%;
+        margin:0;
+      }
+      #ContentPane11 {
+        width:100%;
+        margin:0;
+        img{width:100%}
+      }
+      #ContentPane12 {
+        @include column(9);
+      }
+    }
+
+/**************************************************************************************
+ *                                                 Responsive Left Nav Over-rides
+ *************************************************************************************/
+    #three {
+      width:20%;
+      margin:0 2%;
+      #ContentPane13 {
+      }
+      #ContentPane14 {
+      }
+      #ContentPane15 {
+      }
+      #ContentPane16 {
+      }
+      #ContentPane17 {
+      }
+      #ContentPane18 {
+      }
+    }
+
+/**************************************************************************************
+ *                                              Responsive Main Content Over-rides
+ *************************************************************************************/
+    #four {
+      width:74%;
+      margin:0 2% 0 0;
+      #ContentPane19 {
+        width:100%;
+      }
+      #ContentPane20 {
+        width:100%;
+        margin:0;
+        float:left;
+      }
+      #ContentPane21 {
+        width:48%;
+        margin:0;
+        float:right;
+      }
+      #ContentPane22 {
+        width:48%;
+        margin-left:0;
+      }
+      #ContentPane23 {
+        width:48%;
+        margin-right:0;
+        float:right;
+        clear:right;
+      }
+      #ContentPane24 {
+        width:48%;
+        margin-left:0;
+      }
+      #ContentPane25 {
+        width:48%;
+        margin-right:0;
+        float:right;
+        clear:right;
+      }
+      #ContentPane26 {
+        width:48%;
+      }
+      #ContentPane27 {
+        clear:both;
+      }
+      #ContentPane28 {
+      }
+      #ContentPane29 {
+      }
+      #ContentPane30 {
+      }
+   }
+
+/**************************************************************************************
+ *                                              Responsive Main Content Over-rides
+ *************************************************************************************/
+    #five {
+      width:100%;
+      margin:20px 0 0 0;
+    }
+
+/**************************************************************************************
+ *                                              Responsive Room to Grow Over-rides
+ *************************************************************************************/
+    #six {
+      width:100%;
+      margin:0;
+    }
+
+/**************************************************************************************
+ *                                              Responsive Bottom Content Over-rides
+ *************************************************************************************/
+    #seven {
+      width:100%;
+      margin:0;
+    }
+  
+}
+

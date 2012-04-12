@@ -1,0 +1,60 @@
+@import "grid";
+@import "compass/css3";
+
+body,div,img {margin:0;padding:0}
+#PageContainer {
+  margin:10px auto;
+  width:960px;
+  padding:5px 0;
+  border:1px solid #ccc;
+  @include clearfix;
+  @include single-box-shadow;
+  @include border-radius(5px);
+}
+h1, h2, h3, p {margin:0; padding:0 .8em}
+.container {
+  background:#FFFF99;
+  position:relative;
+  line-height:1;
+}
+.pane {
+  background:#F4F4F4;
+}
+.empty:before {
+  content:'Available Pane';
+}
+#one {
+  @include column(12);
+  margin-bottom:10px;
+  img {width:100%}
+}
+#two {
+  @include column(3);
+}
+#three {
+  @include column(9);
+}
+#four {
+  @include column(9);
+}
+#five {
+  @include column(10);
+}
+#six {
+  @include column(10);
+
+}
+#seven {
+  @include column(10);
+}
+#eight {
+  @include column(10);
+}
+#nine {
+  @include column(12);
+}
+  
+// Responsive Layout ***********************************************************
+@media screen and (max-width: 960px) {
+
+}
